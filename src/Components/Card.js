@@ -1,6 +1,8 @@
 import "./card.css"
 
 function Card(props){
+  console.log(props.birthday);
+
     return(
         <div className="card">
         <img className="img" src={props.src} alt="" />

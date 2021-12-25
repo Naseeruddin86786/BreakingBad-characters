@@ -17,7 +17,6 @@ function App() {
     .then((response) => response.json())
     .then((recivedData) => setData(recivedData));
   };
-  console.log(data);
   return (
     <div className="App">
       {/* <Header/>
